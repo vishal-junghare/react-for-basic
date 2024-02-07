@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function App() {
-  var[a,b]= useState(7);
+  var[a,b]= useState(70);
   return (
     <div className='w-full h-screen bg-red-900 p-4 '>
     <h1>{a}</h1>
